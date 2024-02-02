@@ -1,0 +1,18 @@
+● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+     Active: active (running) since Wed 2024-01-31 21:25:39 +06; 27s ago
+       Docs: man:nginx(8)
+    Process: 3267 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 3268 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+   Main PID: 3269 (nginx)
+      Tasks: 4 (limit: 4598)
+     Memory: 4.0M
+        CPU: 65ms
+     CGroup: /system.slice/nginx.service
+             ├─3269 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"
+             ├─3270 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+             ├─3271 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+             └─3272 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+
+янв 31 21:25:39 sergkom-VirtualBox systemd[1]: Starting A high performance web server and a reverse proxy server...
+янв 31 21:25:39 sergkom-VirtualBox systemd[1]: Started A high performance web server and a reverse proxy server.

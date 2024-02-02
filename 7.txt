@@ -1,0 +1,48 @@
+Test_case_1: Addition of two positive numbers
+step_1: Enter the first number 1
+step_2: Enter second number 0
+step_3: Perform add operation
+Expected result: The result of the addition must be 1
+[+] Result: 1
+
+Test_case_2: Addition of two negative numbers
+step_1: Enter the first number -10
+step_2: Enter second number -10
+step_3: Perform add operation
+Expected result: The result of the addition must be -20
+[+] Result: -20
+
+Test_case_3: Subtracting one number from another
+step_1: Enter the first number 10
+step_2: Enter second number 9
+step_3: Perform add operation
+Expected result: The subtraction result must be 1
+[+] Result: 1
+
+Test_case_4: Zero divide
+step_1: Enter the first number 1
+step_2: Enter second number 0
+step_3: Perform add operation
+Expected result: There must be an error or a divide-by-zero warning
+[+] Result: 1
+
+Test_case_5: Dividing one number into another
+step_1: Enter the first number 4
+step_2: Enter second number 2
+step_3: Perform add operation
+Expected result: The division result must be 2
+[+] Result: 2
+
+Test_case_6: Dividing a smaller number by a larger number
+step_1: Enter the first number 9
+step_2: Enter second number 10
+step_3: Perform add operation
+Expected result: The division result must be 0.9
+[+] Result: 0.9
+
+Test_case_7: Multiplying one number by another
+step_1: Enter the first number 5
+step_2: Enter second number 2
+step_3: Perform add operation
+Expected result: The multiplication result is equal to 10
+[+] Result: 10
